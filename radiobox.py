@@ -39,10 +39,6 @@ def validater(instruction):
     global opCodes
     global registers
 
-    print("This is working")
-    print(opCodes)
-    print(registers)
-
     if instruction[0] in opCodes:
         if instruction[1] in registers:
             if instruction[2] in registers:
